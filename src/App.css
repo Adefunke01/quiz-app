@@ -1,0 +1,243 @@
+body {
+  background-color: #EDE8E3;
+}
+
+.rootContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+  background-color: #EDE8E3;
+  align-items: center;
+}
+
+.topContainer {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.question {
+  font-family: General Sans;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+  color: #191D63;
+  max-width: 690px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.button {
+  border-radius: 8px;
+  background-color: #31CD63;
+  width: 240px;
+  height: 60px;
+  color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.options {
+  border-radius: 8px;
+  background-color: white;
+  width: 510px;
+  height: 81px;
+  color: #060710;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.selected {
+  background-color: #31CD63;
+  cursor: pointer;
+}
+
+.alphabet {
+  border-radius: 24.5px;
+  background-color: #EDE8E3;
+  text-align: center;
+  border: 1px solid grey;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 600;
+
+}
+
+.answer {
+  align-items: center;
+  margin-left: 20px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F4F3F6;
+  border: 1px solid grey;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  padding: 10px;
+}
+
+.progress {}
+
+.progressLabel {
+  color: black;
+}
+
+.completed {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100%;
+  border-radius: 8px;
+  width: 524px;
+  padding-left: 30px;
+  padding-right:30px;
+  padding-bottom: 30px;
+}
+
+.scoreContainer {
+  width: 524px;
+  height: 258px;
+  background-color: #F4F3F6;
+  border-radius: 8px;
+  border: solid 1px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.score {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 27.04px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #060710;
+
+}
+
+.remarks {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 27.04px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #20BA6E;
+
+}
+
+.completedText {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #191D63;
+
+}
+
+.titleBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  width: 1297px;
+}
+.heading{
+font-family: General Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+}
+.questionItem{
+  margin-bottom: 20px;
+}
+.pageNumber{
+  border-radius: 8px;
+  background-color: #F4F3F6;
+  width: 72px;
+  height: 35px;
+  text-align: center;
+  color: #191D63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  display: flex;
+}
+.closeIcon{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #F4F3F6;
+  color: #191D63;
+  font-weight: 600;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: end;
+}
+.backButton{
+  background-color: red;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.fade{
+  opacity: 30%;
+  cursor: auto;
+}
+
+.failed{
+  height: 250px ;
+  overflow: scroll;
+  
+}
+.completedContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
