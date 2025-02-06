@@ -72,8 +72,6 @@ export const App = () => {
     }
   };
   const totalScore = (score / data.results.length) * 100;
-  console.log(data.results, "data")
-
 
   return (
     <>
